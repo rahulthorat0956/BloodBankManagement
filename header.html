@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1" >
+<title>Insert title here</title>
+   <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header appears above other content */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#banner {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.feature h3 {
+    color: #007bff;
+}
+
+.feature p {
+    color: #666;
+}
+
+.feature a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <link rel="stylesheet" href="styles.css">
+        <nav>
+            <ul>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <nav class="navbar navbar-light bg-light">
+                        <a class="navbar-brand" href="#">
+                          <img src="../assets/blood-donation.png" width="50" height="50" alt="">
+                        </a>
+                      </nav>
+                  
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                          </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a href="./login.html">Login</a> </button>&nbsp;
+
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a href="./Register.html">Register</a></button>
+                        &nbsp;
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a href="./Admin.html">Admin_Login</a></button>
+                      </form>
+                    </div>
+                  </nav>
+                
+            </ul>
+
+        </nav>
+        <center> <h1>Blood Bank Management System</h1></center>
+    </header>
+</body>
+</html>

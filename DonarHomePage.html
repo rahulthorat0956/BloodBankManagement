@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Donation</title>
+<style>
+    body {
+        margin-top: 600px;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('../donar.jpg'); /* Add the path to your background image */
+        background-size: cover;
+        background-position: center;
+        height: 200%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        text-align: center;
+        color: rgb(219, 25, 25);
+    }
+    button {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #ff4500;
+        color: white;
+        text-transform: uppercase;
+        transition: background-color 0.3s;
+    }
+    button:hover {
+        background-color: #d32f2f;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Donate Blood, Save Lives</h1>
+        <p>Blood donation is a noble act that helps save lives. Every donation matters.</p>
+
+        <button onclick="location.href='DonarForm.html'">Become a Donor</button>
+
+        <button onclick="location.href='find_drive.html'">Find a Drive</button>
+        <p>For more information about blood donation, visit <a href="https://www.redcross.org/">Red Cross</a>.</p>
+    </div>
+</body>
+</html>
